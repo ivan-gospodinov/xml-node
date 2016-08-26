@@ -1,12 +1,16 @@
 {
   "name": "xml-node",
   "version": "0.0.1",
-  "description": "XML node tree.",
+  "description": "XML node tree",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/istanbul test ./node_modules/mocha/bin/_mocha -- --reporter spec"
   },
   "author": "Leo Ma",
+  "repository":
+  { "type" : "git",
+    "url" : "https://github.com/maleo1/xml-node.git"
+  },
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.10.1",
