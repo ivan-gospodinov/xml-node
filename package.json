@@ -1,0 +1,22 @@
+{
+  "name": "xml-node",
+  "version": "0.0.1",
+  "description": "XML node tree.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul test ./node_modules/mocha/bin/_mocha -- --reporter spec"
+  },
+  "author": "Leo Ma",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "sax": "^1.1.4",
+    "xmlbuilder": "^4.2.1"
+  },
+  "devDependencies": {
+    "async": "^1.5.1",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2"
+  }
+}
