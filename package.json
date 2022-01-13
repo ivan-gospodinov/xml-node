@@ -7,13 +7,13 @@
     "test": "./node_modules/.bin/istanbul test ./node_modules/mocha/bin/_mocha -- --reporter spec"
   },
   "author": "Leo Ma",
-  "repository":
-  { "type" : "git",
-    "url" : "https://github.com/maleo1/xml-node.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maleo1/xml-node.git"
   },
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.21",
     "sax": "^1.1.4",
     "xmlbuilder": "^4.2.1"
   },
